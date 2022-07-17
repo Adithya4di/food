@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html && parcel watch index.html",
+    "build": "parcel build index.html",
+    "type": "module"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "core-js": "^3.22.8",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.26.10"
+  },
+  "main": "index.js",
+  "description": ""
+}
